@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-spring-boot-app
+    env: docker
+    plan: free
+    docker:
+      dockerfile: Dockerfile
